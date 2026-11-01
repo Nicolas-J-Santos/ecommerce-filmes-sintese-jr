@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'CreativeVintage';
+  src: url('../../assets/CreativeVintageRegular-BP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.containerCarrinho {
+  background-color: #01040D;
+  color: white;
+  padding: 5% 11%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  font-family: 'CreativeVintage', serif;
+}
+
+.headerCarrinho {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.btnVoltar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.iconVoltar {
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+}
+
+.textoVoltar {
+  font-size: 35px;
+  color: #ffffff;
+  user-select: none;
+  font-family: 'CreativeVintage', serif;
+}
+
+/* Linha de cabeçalho Products e Price dentro da coluna de produtos */
+.headerProdutosPreco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 0 10px;
+  width: 100%; /* limita à coluna */
+  box-sizing: border-box;
+}
+
+.tituloProducts {
+  font-family: 'CreativeVintage', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+  flex: 1;
+}
+
+.tituloPrice {
+  font-family: 'CreativeVintage', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+  text-align: right;
+  width: 100px; /* largura fixa para alinhamento com preço */
+  flex-shrink: 0;
+}
+
+/* #divider {
+  border: 2px solid #EAA64D;
+  border-radius: 50px;
+  height: 0px;
+  width: 100%;
+  margin-bottom: 20px;
+} */
+
+.conteudoCarrinho {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.conteudoGrid {
+  display: grid;
+  grid-template-columns: 1fr 464px;
+  gap: 40px;
+}
+
+.itensCarrinho {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 100%; /* evita que ultrapasse o container pai */
+  box-sizing: border-box;
+}
+
+.btnSeeMore {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto; /* <- Esta linha alinha o botão à direita */
+  margin-top: 12px;
+}
+
+.iconSeeMore {
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+}
+
+.textoSeeMore {
+  font-size: 18px;
+  color: #ffffff;
+  user-select: none;
+  font-family: 'CreativeVintage', serif;
+}
+
+.navegacaoSuperior {
+  position: absolute;
+  top: 20px;
+  right: 130px;
+}
+
+.navegacaoInferior {
+  position: absolute;
+  bottom: 20px;
+}
+
+.btnVoltar {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.iconVoltar {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}

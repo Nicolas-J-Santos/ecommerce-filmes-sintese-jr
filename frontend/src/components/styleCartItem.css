@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'CreativeVintage';
+  src: url('../assets/CreativeVintageRegular-BP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cartItem {
+  display: flex;
+  background: #0E1423;
+  border-radius: 20px;
+  padding: 15px 20px;
+  color: #FFF;
+  margin-bottom: 18px;
+  gap: 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  font-family: 'Inter', sans-serif;
+}
+
+.cartItem .poster {
+  width: 130px;
+  height: 190px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.cartItem .details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartItem .title {
+  font-family: 'CreativeVintage';
+  font-size: 18px;
+  color: #FFF;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.cartItem .title .year {
+  display: block;
+  font-size: 18px;
+  color: #FFF;
+  font-family: 'CreativeVintage';
+  font-weight: 400;
+  margin-top: 0;
+  letter-spacing: -0.25px;
+}
+
+.cartItem .infoRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #ffffff;
+
+  font-family: 'Inter', sans-serif; 
+}
+
+.cartItem .infoRow img {
+  width: 16px;
+  height: 16px;
+}
+
+.cartItem .language {
+  font-size: 14px;
+  margin-top: 0px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif; 
+}
+
+.cartItem .actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  min-width: 140px;
+}
+
+.cartItem .quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cartItem .quantity button {
+  background-color: #EAA64D;
+  border: none;
+  border-radius: 40px;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  transition: background-color 0.3s ease;
+}
+
+.cartItem .quantity button:hover {
+  background-color: #c88c3a;
+}
+
+.cartItem .quantity span {
+  font-family: 'CreativeVintage';
+  font-size: 20px;
+  font-weight: 700;
+  min-width: 30px;
+  text-align: center;
+  color: #FFF;
+}
+
+.cartItem .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #EAA64D;
+  font-family: 'Inter', sans-serif;
+}
+
+.cartItem .removeBtn {
+  background: transparent;
+  border: 1px solid #EAA64D;
+  border-radius: 40px;
+  color: #EAA64D;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cartItem .removeBtn:hover {
+  background-color: #EAA64D;
+  color: #01040D;
+}

@@ -1,0 +1,77 @@
+.containerFiltros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+}
+
+.containerFiltros button {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#action {
+    background-color: #A16D28;
+    color: #F1C285;
+}    
+
+#adventure {
+    background-color: #1071C7;
+    color: #CCE7FF;
+}
+
+#animation {
+    background-color: #0A4B85;
+    color: #CCE7FF;
+}
+
+#comedy {
+    background-color: #A16D28;
+    color: #F1C285;
+}
+
+#drama {
+    background-color: #C78A3B;
+    color: #F1C285;
+}
+
+#fantasy {
+    background-color: #3D6E99;
+    color: #CCE7FF;
+}
+
+#horror {
+    background-color: #0A4B85;
+    color: #CCE7FF;
+}
+
+#music {
+    background-color: #0D5EA6;
+    color: #CCE7FF;
+}
+
+#mystery {
+    background-color: #A16D28;
+    color: #F1C285;
+}
+
+#romance {
+    background-color: #A16D28;
+    color: #F1C285;
+}
+
+#thriller {
+    background-color: #0A4B85;
+    color: #CCE7FF;
+}
