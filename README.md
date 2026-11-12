@@ -1,4 +1,7 @@
 # Projeto-Trainee-II-2025.1
+> **Fork de [Sintese-Jr/Projeto-Trainee-II-2025.1-](https://github.com/Sintese-Jr/Projeto-Trainee-II-2025.1-).**
+> **Minha contribuição (Nícolas, trainee de Front-End):** desenvolvi o carrinho de compras: o estado global com React Context (`cartContext.jsx`), a página do carrinho, o componente de item e o botão com contador no header, todos integrados à API REST `/carrinho` do back-end para adicionar, listar e remover itens e calcular o subtotal.
+> O histórico de commits foi resetado no repositório original, por isso minhas contribuições não aparecem nele.
 
 Bem-vindo ao Projeto Trainee do grupo um de 2025, no qual foi criada uma plataforma de e-commerce dedicada a vendas de filmes.
 
